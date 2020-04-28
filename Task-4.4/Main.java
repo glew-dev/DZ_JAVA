@@ -12,7 +12,7 @@ public class Main {
         Get(1, 2, 0, s);
         Get(2, 1, 0, s);
     }
-    static void Get(int a, int b, int c, String[] s) {
+    static void Get(int a, int b, int c, String s[]) {
         System.out.println(s[a] + s[b] + s[c]);
     }
 }
