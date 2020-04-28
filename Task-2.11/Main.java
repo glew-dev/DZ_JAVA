@@ -10,11 +10,8 @@ public class Main {
         System.out.print("Четверть: ");
 
         if (min < 15) System.out.println("1");
-        else
-            if (min < 30) System.out.println("2");
-            else
-                if (min < 45) System.out.println("3");
-                else
-                    System.out.println("4");
+        else if (min < 30) System.out.println("2");
+        else if (min < 45) System.out.println("3");
+        else System.out.println("4");
     }
 }
