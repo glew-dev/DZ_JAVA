@@ -35,7 +35,7 @@ public class Main {
         System.out.println(c2.toString());
         System.out.println(c3.toString());
     }
-    public static class Human {
+    static class Human {
         private String name;
         private boolean sex;
         private int age;
