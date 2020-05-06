@@ -21,7 +21,7 @@ public class Main {
         }
     }
     public static class CheapCar extends Constants {
-        public void printlnDesire() {
+        protected void printlnDesire() {
             System.out.println(WANT_STRING + CHEAP_CAR);
         }
     }
