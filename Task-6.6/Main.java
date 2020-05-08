@@ -7,7 +7,7 @@ public class Main {
         try {
             int a = 42 / 0;
         }
-        catch(Exception e){
+        catch(ArithmeticException e){
             e.printStackTrace();
         }
         System.out.println("Программа завершена");
