@@ -14,7 +14,7 @@ public class Main {
         String s = sc.nextLine();
         try {
             Date date = new SimpleDateFormat("yyyy-MM-dd").parse(s);
-            System.out.println(new SimpleDateFormat("MMM dd, yyyy", Locale.US).format(date));
+            System.out.println(new SimpleDateFormat("MMM dd, yyyy", Locale.US).format(date).toUpperCase());
         } catch(Exception e) {
             throw new Exception("Ошибка!");
         }
