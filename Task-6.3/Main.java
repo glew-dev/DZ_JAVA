@@ -25,7 +25,7 @@ public class Main /*.java */ {
         this.title = title;
     }
     @Override
-    public Book getBook() {
+    public MarkTwainBook getBook() {
         return this;
     }
     @Override
@@ -38,7 +38,7 @@ public class Main /*.java */ {
         this.title = title;
     }
     @Override
-    public Book getBook() {
+    public AgathaChristieBook getBook() {
         return this;
     }
     @Override
